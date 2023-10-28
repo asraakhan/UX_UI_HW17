@@ -5,20 +5,22 @@ body{
 
 h1{
     display:flex;
-    display:inline-block;
     font-size: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
     color: #1e1e1e;
     font-weight: lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 70%, transparent 30%);
-}
+    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
+} 
 
 h2{
     font-size: 64px;
     color: #1e1e1e;
     font-weight: lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 70%, transparent 30%);
+    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
 }
 
 h3{
@@ -26,14 +28,14 @@ h3{
     color: #1e1e1e;
     font-weight: lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 70%, transparent 30%);
+    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
 }
 
 h4{
     font-size: 40px;
     font-weight: lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 70%, transparent 30%);
+    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
 }
 
 h5{
@@ -152,8 +154,11 @@ header > ul, li, img {
     display:inline-block;
 }
 
+.logo {
+    margin-left: 51px;
+}
 .inline-block, 
-footer > div, li, img, p {
+footer > div, ul, li, img, p {
     display:inline-block;
 }
 
@@ -167,13 +172,12 @@ height: 90px;
     float:left;
 }
 
-.highlight{
-    height:62px;
-    width:451px;
-}
-
 .navigation  nav {
     float:right;
+}
+
+.navigation ul {
+    margin-right:31px;
 }
 
 
@@ -187,7 +191,42 @@ li{
 
 }
 
+heroImg {
+    display:flex;
+    width:1440px;
+    height:518px;
+    background-image: url("../images/background\ image\ Hero.png");
+}
+
+content{
+    width:546px;
+    height:350px;
+    margin-top: 70px;
+    margin-left: 166px;
+    border: 1px solid red;
+}
+
+.title{
+    justify-content: left;
+    width:546px;
+    margin: 0px;
+}
+.AK {display:flex;}
+
+.des1{align-items: center;
+justify-content: left;
+margin-top:10px;
+margin-bottom: 10px;}
+
+.des2{
+    align-items: flex-end;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+
 button {
+    justify-content: left;
     background-color: transparent;
     outline-color: transparent;
     stroke: none;
@@ -198,4 +237,31 @@ footer{
     background-color: #1e1e1e;
     width:1440px;
     Height:216px;
+}
+
+ul{
+    display:flex;
+    float:right;
+    flex-direction: column;
+}
+.Location {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.location img{
+    justify-content: flex-start;
+}
+.location p{
+    justify-content: flex-end;
+}
+.Mail {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Linkedin {
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
 }
