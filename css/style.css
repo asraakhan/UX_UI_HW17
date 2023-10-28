@@ -13,8 +13,7 @@ h1{
     font-weight: lighter;
     font-family: 'Fredericka the Great', serif;
     background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
-} 
-
+}
 h2{
     font-size: 64px;
     color: #1e1e1e;
@@ -133,7 +132,8 @@ h6{
     font-family: 'Raleway', sans-serif;
 }
 
-p { font-size: 16px;
+p { 
+    font-size: 16px;
     color: #1e1e1e;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
@@ -152,9 +152,8 @@ p { font-size: 16px;
 .logo {
     margin-left: 51px;
 }
-.inline-block, 
-footer > div, ul, li, img, p {
-    display:inline-block;
+.inline-block > ul, li{
+    display:flex;
 }
 
 .navigation{
@@ -203,7 +202,9 @@ content{
     width:546px;
     margin: 0px;
 }
-.AK {display:flex;}
+.AK {
+    display:flex;
+}
 
 .des1{align-items: center;
 justify-content: left;
@@ -226,34 +227,86 @@ button {
 }
 
 footer{
+    display:flex;
+    flex-direction: row;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
     background-color: #1e1e1e;
     width:1440px;
     Height:216px;
 }
-
+.footerTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 165px;
+}
+.FT1{
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+}
+.FT2{
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+}
 ul{
     display:flex;
     float:right;
     flex-direction: column;
 }
-.Location {
-    flex-direction: row;
-    align-items: start;
-    justify-content: center;
+.ulBottom{
+    margin:0px;
+    width:373px;
+    padding-left: 295px;
 }
-.location img{
-    justify-content: flex-start;
-}
-.location p{
-    justify-content: flex-end;
-}
-.Mail {
-    flex-direction: row;
+.Location{
     align-items: center;
-    justify-content: center;
+    padding:0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width:373px;
 }
-.Linkedin {
+
+.Loctext{
     flex-direction: row;
-    align-items: end;
-    justify-content: center;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+    white-space:nowrap;
+}
+.Mail{
+    align-items: center;
+    padding:0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width:373px;
+}
+
+.Mailtext{
+    flex-direction: row;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+
+}
+.Linkedin{
+    align-items: center;
+    padding:0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width:373px;
+}
+
+.Linkedintext{
+    display:inline;
+    flex-direction: row;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+    white-space:nowrap;
+
 }
