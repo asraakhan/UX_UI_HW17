@@ -149,11 +149,6 @@ p { font-size: 16px;
     color:#FCBF38;
 }
 
-.inline-block, 
-header > ul, li, img {
-    display:inline-block;
-}
-
 .logo {
     margin-left: 51px;
 }
@@ -166,18 +161,16 @@ footer > div, ul, li, img, p {
 background-color: #1e1e1e;
 width: 1440px;
 height: 90px;
-}
-
-.navigation img {
-    float:left;
-}
-
-.navigation  nav {
-    float:right;
+display:flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .navigation ul {
+    flex-direction: row;
     margin-right:31px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
