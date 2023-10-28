@@ -203,7 +203,6 @@ content{
     height:350px;
     margin-top: 70px;
     margin-left: 166px;
-    border: 1px solid red;
 }
 
 .title{
@@ -228,9 +227,9 @@ margin-bottom: 10px;}
 button {
     justify-content: left;
     background-color: transparent;
-    outline-color: transparent;
-    stroke: none;
-    stroke-width: 0%;
+    padding:0px;
+    border-width: 0px;
+    border-color: transparent;
 }
 
 footer{
