@@ -211,11 +211,13 @@ li{
 
 }
 
-heroImg {
+heroImg{
     display:flex;
     width:1440px;
     height:518px;
     background-image: url("../images/background\ image\ Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 content{
