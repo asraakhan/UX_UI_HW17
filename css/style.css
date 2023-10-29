@@ -14,29 +14,55 @@ h1{
     color: #1e1e1e;
     font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:-8.5px;
     background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
 }
 h2{
+    display:flex;
+    align-items: center;
     font-size: 64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
     color: #1e1e1e;
-    font-weight: lighter;
+    font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
 }
-
 h3{
+    display:flex;
+    align-items: center;
     font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
     color: #1e1e1e;
-    font-weight: lighter;
+    font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
 }
 
 h4{
+    display:flex;
+    align-items: center;
     font-size: 40px;
-    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
+    color: #1e1e1e;
+    font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
 }
 
 h5{
@@ -273,7 +299,7 @@ ul{
     margin:0px;
     width:373px;
     height:161px;
-    padding-left: 295px;
+    padding-left: 210px;
     display:flex;
     justify-content: flex-start;
 }
