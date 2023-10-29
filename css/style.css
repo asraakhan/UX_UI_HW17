@@ -5,14 +5,16 @@ body{
 
 h1{
     display:flex;
+    align-items: center;
     font-size: 96px;
     margin-top: 0px;
     margin-bottom: 0px;
+    block-size: 79px;
     padding:0px;
     color: #1e1e1e;
-    font-weight: lighter;
+    font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
-    background: linear-gradient(to top, #FCBF38 65%, transparent 35%);
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
 }
 h2{
     font-size: 64px;
@@ -260,6 +262,7 @@ footer{
     display:flex;
     flex-direction: row;
     margin:0px;
+    padding-left:10px;
 }
 ul{
     display:flex;
