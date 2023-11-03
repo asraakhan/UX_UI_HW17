@@ -70,6 +70,7 @@ h5{
     color:#FCE3AD;
     font-weight:800;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: -10.5px;
 }
 
 h6{
@@ -211,7 +212,7 @@ li{
 
 }
 
-heroImg{
+.heroImg{
     display:flex;
     width:1440px;
     height:518px;
@@ -220,7 +221,7 @@ heroImg{
     background-repeat: no-repeat;
 }
 
-content{
+.content{
     width:546px;
     height:350px;
     margin-top: 70px;
